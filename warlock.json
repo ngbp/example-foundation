@@ -1,0 +1,19 @@
+{
+  "tasks": {
+    "webapp-lintcss": {
+      "lint": {
+        "fallback-colors": false
+      }
+    }
+  },
+  "globs": {
+    "vendor": {
+      "js": [
+        "vendor/modernizr/modernizr.js",
+        "vendor/jquery/dist/jquery.min.js",
+        "vendor/fastclick/lib/fastclick.js",
+        "vendor/foundation/js/foundation.min.js"
+      ]
+    }
+  }
+}

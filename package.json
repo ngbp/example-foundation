@@ -1,0 +1,19 @@
+{
+  "author": "Josh David Miller",
+  "name": "warlock-example-foundation",
+  "version": "1.0.0-alpha.1",
+  "homepage": "http://getwarlock.com",
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/ngbp/example-foundation/master/LICENSE"
+  },
+  "bugs": "https://github.com/ngbp/example-foundation/issues",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ngbp/example-foundation.git"
+  },
+  "devDependencies": {
+    "warlock-spell-webapp": "~1.0",
+    "warlock-spell-sass": "~1.0"
+  }
+}
