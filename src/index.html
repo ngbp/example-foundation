@@ -145,9 +145,6 @@
     </footer>
 
     <!-- scripts -->
-    <% webappScriptsVendor.forEach( function ( script ) {%>
-    <script type="text/javascript" src="<%= warlock.file.relativePath( warlock.file.dirname(filepath), script ) %>">
-    </script><%});%>
     <% webappScripts.forEach( function ( script ) {%>
     <script type="text/javascript" src="<%= warlock.file.relativePath( warlock.file.dirname(filepath), script ) %>">
     </script><%});%>
